@@ -14,7 +14,37 @@ it returns errors instead of throwing them.
 
 ### usage
 
-coming soon.
+tryCatch can wrap any function:
+
+```
+const fn = () => throw new Error('error')
+
+const tryCatchable = lib.tryCatch(fn)
+
+const result = tryCatchable()
+
+// result.message === 'error'
+```
+
+this example contains a Module that uses tryCatch,
+you can find it
+[here](https://github.com/magic-libraries/try-catch/tree/master/example/assets/TryCatch.mjs)
+
+```
+export const View = () => {
+  const msg = 'lib.tryCatch returns errors instead of throwing them'
+  const result = lib.tryCatch(() => new Error(msg))()
+
+  return Pre(result.message)
+}
+```
+
+renders
+
+<TryCatch></TryCatch>
+
+for another usecase,
+have a look at [@magic-libraries/json](https://github.com/magic-libraries/json)
 
 ### source
 
