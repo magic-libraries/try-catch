@@ -1,4 +1,4 @@
-export const tryCatch = fn => (...a) => {
+const tryCatch = fn => (...a) => {
   try {
     return fn(...a)
   } catch (e) {
@@ -6,6 +6,4 @@ export const tryCatch = fn => (...a) => {
   }
 }
 
-export default {
-  tryCatch,
-}
+export default tryCatch
