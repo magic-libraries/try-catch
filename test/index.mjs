@@ -1,5 +1,5 @@
 import { is } from '@magic/test'
-import { tryCatch } from '../src/index.mjs'
+import tryCatch from '../src/index.mjs'
 
 const handler = (fn, ...args) => tryCatch(fn)(...args)
 
