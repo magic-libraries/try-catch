@@ -6,7 +6,7 @@ tryCatch library.
 
 it returns errors instead of throwing them.
 
-<GitBadges>magic-libraries/try-catch</GitBadges>
+<GitBadges>@magic-libraries/try-catch</GitBadges>
 
 ### installation
 
