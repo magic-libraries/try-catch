@@ -42,3 +42,9 @@ coming soon.
 
 ##### 0.0.1
 first release
+
+##### 0.0.2
+bump required node version
+
+##### 0.0.3 - unreleased
+...
