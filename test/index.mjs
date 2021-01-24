@@ -5,12 +5,16 @@ const handler = (fn, ...args) => tryCatch(fn)(...args)
 
 export default [
   {
-    fn: handler(() => { throw new Error('error') }),
+    fn: handler(() => {
+      throw new Error('error')
+    }),
     expect: is.error,
     info: 'successfully returns an error instead of throwing it',
   },
   {
-    fn: handler(() => { throw new Error('error') }),
+    fn: handler(() => {
+      throw new Error('error')
+    }),
     expect: t => t.message === 'error',
     info: 'successfully returns an error with a message',
   },

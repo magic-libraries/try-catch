@@ -1,5 +1,5 @@
 export const View = () => {
-  const fn = (m) => new Error(m)
+  const fn = m => new Error(m)
 
   const catchable = lib.tryCatch(fn)
 
