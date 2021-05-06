@@ -1,6 +1,6 @@
 ## @magic-libraries/try-catch
 
-this is the [@magic](https://magic.github.io/core)-client try-catch library.
+this is the [@magic](https://magic.github.io/core/)-client try-catch library.
 
 it returns errors instead of throwing them.
 
