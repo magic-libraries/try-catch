@@ -1,7 +1,7 @@
 # ${title}
 
 this is the
-[@magic-libraries](https://github.com/magic-libraries)
+[@magic-libraries](https://github.com/magic-libraries/)
 tryCatch library.
 
 it returns errors instead of throwing them.
@@ -28,7 +28,7 @@ const result = tryCatchable()
 
 this example contains a Module that uses tryCatch,
 you can find it
-[here](https://github.com/magic-libraries/try-catch/tree/master/example/assets/TryCatch.mjs)
+[here](https://github.com/magic-libraries/try-catch/blob/master/example/assets/TryCatch.mjs)
 
 ```
 export const View = () => {
