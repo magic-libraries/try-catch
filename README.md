@@ -10,7 +10,6 @@ it returns errors instead of throwing them.
 [![Linux Build Status][travis-image]][travis-url]
 [![Windows Build Status][appveyor-image]][appveyor-url]
 [![Coverage Status][coveralls-image]][coveralls-url]
-[![Greenkeeper badge][greenkeeper-image]][greenkeeper-url]
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 
 [npm-image]: https://img.shields.io/npm/v/@magic-libraries/try-catch.svg
@@ -21,8 +20,6 @@ it returns errors instead of throwing them.
 [appveyor-url]: https://ci.appveyor.com/project/magiclibraries/try-catch/branch/master
 [coveralls-image]: https://coveralls.io/repos/github/magic-libraries/try-catch/badge.svg
 [coveralls-url]: https://coveralls.io/github/magic-libraries/try-catch
-[greenkeeper-image]: https://badges.greenkeeper.io/magic-libraries/try-catch.svg
-[greenkeeper-url]: https://badges.greenkeeper.io/magic-libraries/try-catch.svg
 [snyk-image]: https://snyk.io/test/github/magic-libraries/try-catch/badge.svg
 [snyk-url]: https://snyk.io/test/github/magic-libraries/try-catch
 
