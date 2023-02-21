@@ -1,6 +1,6 @@
 {
   "name": "@magic-libraries/try-catch",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": "Wizards & Witches",
   "description": "@magic try-catch library. returns errors instead of throwing them.",
   "license": "AGPL-3.0",
