@@ -23,10 +23,11 @@ it returns errors instead of throwing them.
 [snyk-image]: https://snyk.io/test/github/magic-libraries/try-catch/badge.svg
 [snyk-url]: https://snyk.io/test/github/magic-libraries/try-catch
 
-* [installation](#installation)
-* [usage](#usage)
+- [installation](#installation)
+- [usage](#usage)
 
 #### installation
+
 ```bash
 npm install --save-exact @magic-libraries/try-catch
 ```
@@ -38,19 +39,24 @@ coming soon.
 #### changelog
 
 ##### 0.0.1
+
 first release
 
 ##### 0.0.2
+
 bump required node version
 
 ##### 0.0.3
+
 bump required node version to 14.15.4
 
 ##### 0.0.4
+
 update dev dependencies
 chmod -x package.json
 
 ##### 0.0.5
+
 update dependencies
 
 ##### 0.0.6
@@ -61,5 +67,6 @@ update dependencies
 
 update dependencies
 
-##### 0.0.8  - unreleased
+##### 0.0.8 - unreleased
+
 ...
