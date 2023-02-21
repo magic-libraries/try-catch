@@ -53,5 +53,13 @@ chmod -x package.json
 ##### 0.0.5
 update dependencies
 
-##### 0.0.6 - unreleased
+##### 0.0.6
+
+update dependencies
+
+##### 0.0.7
+
+update dependencies
+
+##### 0.0.8  - unreleased
 ...
